@@ -39,6 +39,7 @@
 		6CA58851287CBBDE002BA325 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		6CA58853287CBC56002BA325 /* SectionController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionController2.swift; sourceTree = "<group>"; };
 		6CA58855287CC507002BA325 /* SectionViewModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewModel2.swift; sourceTree = "<group>"; };
+		6CA588A4287E31BC002BA325 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		79B40CB38AA1E76278B9B2A5 /* Pods-MultiSection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiSection.release.xcconfig"; path = "Target Support Files/Pods-MultiSection/Pods-MultiSection.release.xcconfig"; sourceTree = "<group>"; };
 		7D098AC4E7AEAAD3ECCCC2EE /* Pods-MultiSection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiSection.debug.xcconfig"; path = "Target Support Files/Pods-MultiSection/Pods-MultiSection.debug.xcconfig"; sourceTree = "<group>"; };
 		E23ED88E95486A6763E8AA03 /* Pods_MultiSection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiSection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +68,7 @@
 		6CA588252878F6A1002BA325 = {
 			isa = PBXGroup;
 			children = (
+				6CA588A4287E31BC002BA325 /* LICENSE.md */,
 				6CA588302878F6A1002BA325 /* MultiSection */,
 				6CA5882F2878F6A1002BA325 /* Products */,
 				92B6D695A1AF430C4BDFA444 /* Pods */,

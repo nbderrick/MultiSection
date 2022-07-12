@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MultiSection"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.0"
   spec.summary      = "A project to display search results. NB."
 
   # This description is used to generate tags and improve search results.
@@ -132,6 +132,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   spec.xcconfig = { "SWIFT_VERSION" => "5.0" }
-  spec.dependency "UIKit", "~> 4.0"
+  spec.dependency "IGListKit", "~> 4.0"
 
 end

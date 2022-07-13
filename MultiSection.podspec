@@ -63,7 +63,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "13.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "9.0"
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "MultiSection/"
+  spec.source_files  = "MultiSection", "MultiSection/Cell", "MultiSection/Section"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -132,5 +132,7 @@ Pod::Spec.new do |spec|
 
   spec.xcconfig = { "SWIFT_VERSION" => "5.0" }
   spec.dependency "IGListKit", "~> 4.0"
+  spec.swift_version = '5.0'
 
 end
+
